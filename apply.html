@@ -1,0 +1,124 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Application Form</title>
+
+    <style>table {width: 25%; } td {  padding: 10px;} a {padding-right: 10px;}</style>
+</head>
+  <body>
+
+    <nav>
+        <ul>
+            <a href="home.html">Home</a>
+            <a href="#">Sign In</a>
+            <a href="#">Contact Me</a>
+        </ul>
+    </nav>
+
+
+    <div>
+      <h1>Application Form</h1>
+      <p>Fill in your details</p>
+    </div>
+
+
+    <form action="">
+        <table>
+            <tbody><tr>
+                <td><label for="first-name">First Name<span>*</span></label></td>
+
+                <td><input type="text" placeholder="Enter first name" aria-required="true"></td>
+            </tr>
+
+            <tr>
+                <td><label for="last-name">Last Name<span>*</span></label></td>
+                <td><input type="text" placeholder="Enter Last name" aria-required="true"></td>
+            </tr>
+
+            <tr>
+                <td><label for="select-gender">Gender<span>*</span></label></td>
+
+                <td><select id="gender" name="gender" aria-required="true">
+                    <option value="Select-Gender">select gender</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth<span>*</span></label></td>
+                <td><input type="date" id="dob" name="dob" aria-required="true"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email-address">Email Address<span>*</span></label></td>
+                <td><input type="text" placeholder="Enter email address" aria-required="true"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="text">Education Level<span>*</span></label></td>
+                <td><select id="gender" name="gender" aria-required="true">
+                    <option value="">Select level of education</option>
+                    <option value="Msc">Msc</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="doctorate">Doctorate (Phd)</option>
+                    <option value="high-school">High school</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="junior-sch">Juniro / Middle School</option>
+                    <option value="post-grad">Post Graduate</option>
+                  </select>
+                </td>
+            </tr>
+          
+            <tr>
+                <td><label for="text">Country<span>*</span></label></td>
+                <td><input list="countries" placeholder="select your country" id="country" name="country" required="">
+                    <datalist id="countries">
+                        <option value="Kenya">Kenya</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="USA">USA</option>
+            
+                        <!-- Add more countries here -->
+                      </datalist>  
+                    </td>
+            </tr>
+          
+            <tr>
+                <td><label for="select-employment-status">Employment status<span>*</span></label></td>
+                <td><select id="employment" name="employment" aria-required="true">
+                    <option value="select-employment-status">select employment status</option>
+                    <option value="employed">employed</option>
+                    <option value="unemployed">unemployed</option>
+                    <option value="self-employed">self-employed</option>
+                  </select>
+                </td>
+            </tr>
+          
+            <tr>
+                <td><label for="phone-number">Phone Number<span>*</span></label></td>
+                <td><input type="text" placeholder="08135845889" aria-required="true"></td>
+            </tr>
+          
+            <tr>
+                <td><label for="select-school">Choose School<span>*</span></label></td>
+                <td><select id="school" name="school" aria-required="true">
+                    <option value="select-school">Select School</option>
+                    <option value="employed">School of creative Economy</option>
+                    <option value="unemployed">School of Business</option>
+                  </select>
+                </td>
+            </tr>
+
+
+
+        </tbody></table>
+    </form>
+
+    <p>By clicking continue, I agree to <a href="">Terms of Use</a>and acknowledge that I
+    have read the <a href="">Privacy Policy.</a></p>
+
+    <button>Proceed</button>
+
+    <p>Already have an account? <a href=""> Sign In</a></p>
